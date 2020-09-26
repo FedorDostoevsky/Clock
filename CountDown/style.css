@@ -1,0 +1,35 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(86, 144, 199);
+	color: white;
+}
+.countdown-wrapper{
+	width: 600px;
+	height: 500px;
+	margin: 0 auto;
+}
+.title{
+	display: none;
+	color: rgb(17, 33, 78);
+	padding: 21px 0px;
+	text-align: center;
+}
+.year{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+.countdown{
+	padding-top: 39px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.time > h2{
+	font-size: 60px;
+}
+.time{
+	text-align: center;
+}
